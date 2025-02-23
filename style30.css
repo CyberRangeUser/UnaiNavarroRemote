@@ -1,0 +1,92 @@
+
+
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+header{
+    display: flex;
+}
+.menu{
+    display: flex;
+}
+.menu-navegacion-paginas li {
+    display: inline-block;
+}
+.footer-logo{
+    float: left;
+}
+
+.footer-logo img{
+    width: 100px;
+    height: 100px;
+}
+footer{
+    display: block;
+}
+.footer-nav{
+    display: block;
+    float: right;
+   
+}
+
+.footer-nav a{
+    display: block;
+    padding: 5px;
+}
+
+.footer-menu-principal{
+    text-align: center;
+    padding: 5px;
+}
+
+.footer-menu-principal div{
+    display: inline-block;
+}
+.footer-menu-secundario{
+    text-align: center;
+    padding: 5px;
+}
+
+.footer-menu-secundario div{
+    display: inline-block;
+}
+
+@media all and (max-width: 700px){
+   .menu-navegacion-paginas{
+    display: none;
+   }
+
+
+
+
+}
+@media all and (min-width: 701px){
+    .menu-hamburguesa{
+        display: none;
+    }
+    .menu-hamburguesa2{
+        display:none;
+    }
+    .menu-navegacion-paginas{
+        display: inline-block;
+    }
+}
+.menu-hamburguesa{
+    width: 35x;
+    height: 35px;
+}
+.menu-hamburguesa2{
+    width: 35x;
+    height: 35px;
+}
+
+.menu-hamburguesa2 img {
+    width: 25px;
+    height: 25px;
+}
+.menu-hamburguesa img{
+    width: 25px;
+    height: 25px;
+}
+
